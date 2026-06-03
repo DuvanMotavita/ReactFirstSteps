@@ -1,0 +1,79 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`MyAwesomeApp > Should match snapshot - screen 1`] = `
+<div
+  data-testid="my-awesome-app"
+>
+  <h1
+    data-testid="first-name-title"
+  >
+     
+    Duvan
+     
+  </h1>
+  <h3>
+     
+    Motavita
+     
+  </h3>
+  <p
+    class="my-favourite-class"
+  >
+     
+    The Legend of Zelda, Super Mario Bros, Metroid
+     
+  </p>
+  <h1>
+     
+    Active
+     
+  </h1>
+  <p
+    style="background-color: rgb(250, 250, 250); border-radius: 20px; padding: 12px; margin-top: 20px;"
+  >
+     
+    {"zipCode":"12345","country":"Colombia"}
+     
+  </p>
+</div>
+`;
+
+exports[`MyAwesomeApp > Should match snapshot 1`] = `
+<div>
+  <div
+    data-testid="my-awesome-app"
+  >
+    <h1
+      data-testid="first-name-title"
+    >
+       
+      Duvan
+       
+    </h1>
+    <h3>
+       
+      Motavita
+       
+    </h3>
+    <p
+      class="my-favourite-class"
+    >
+       
+      The Legend of Zelda, Super Mario Bros, Metroid
+       
+    </p>
+    <h1>
+       
+      Active
+       
+    </h1>
+    <p
+      style="background-color: rgb(250, 250, 250); border-radius: 20px; padding: 12px; margin-top: 20px;"
+    >
+       
+      {"zipCode":"12345","country":"Colombia"}
+       
+    </p>
+  </div>
+</div>
+`;
